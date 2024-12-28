@@ -1,0 +1,73 @@
+[
+    {
+      "isbn": "ISBN-101",
+      "titulo": "El Quijote",
+      "autor": "Miguel de Cervantes",
+      "editorial": "Penguin Classics",
+      "anio_publicacion": 1605
+    },
+    {
+      "isbn": "ISBN-102",
+      "titulo": "Cien Años de Soledad",
+      "autor": "Gabriel García Márquez",
+      "editorial": "Sudamericana",
+      "anio_publicacion": 1967
+    },
+    {
+      "isbn": "ISBN-103",
+      "titulo": "Rayuela",
+      "autor": "Julio Cortázar",
+      "editorial": "Editorial Sudamericana",
+      "anio_publicacion": 1963
+    },
+    {
+      "isbn": "ISBN-104",
+      "titulo": "La Ciudad y los Perros",
+      "autor": "Mario Vargas Llosa",
+      "editorial": "Seix Barral",
+      "anio_publicacion": 1962
+    },
+    {
+      "isbn": "ISBN-105",
+      "titulo": "El Amor en los Tiempos del Cólera",
+      "autor": "Gabriel García Márquez",
+      "editorial": "Oveja Negra",
+      "anio_publicacion": 1985
+    },
+    {
+      "isbn": "ISBN-106",
+      "titulo": "La Sombra del Viento",
+      "autor": "Carlos Ruiz Zafón",
+      "editorial": "Planeta",
+      "anio_publicacion": 2001
+    },
+    {
+      "isbn": "ISBN-107",
+      "titulo": "Pedro Páramo",
+      "autor": "Juan Rulfo",
+      "editorial": "FCE",
+      "anio_publicacion": 1955
+    },
+    {
+      "isbn": "ISBN-108",
+      "titulo": "La Muerte de Artemio Cruz",
+      "autor": "Carlos Fuentes",
+      "editorial": "FCE",
+      "anio_publicacion": 1962
+    },
+    {
+      "isbn": "ISBN-109",
+      "titulo": "El Túnel",
+      "autor": "Ernesto Sabato",
+      "editorial": "Seix Barral",
+      "anio_publicacion": 1948
+    },
+    {
+      "isbn": "ISBN-110",
+      "titulo": "Ficciones",
+      "autor": "Jorge Luis Borges",
+      "editorial": "Emecé",
+      "anio_publicacion": 1944
+    }
+  ]
+  
