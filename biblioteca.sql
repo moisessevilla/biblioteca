@@ -1,20 +1,18 @@
--- Verificamos si existe la base de datos biblioteca, si no la creamos.
+-- Verificamos si existe la base de datos biblioteca, si no la creamos
 CREATE DATABASE IF NOT EXISTS biblioteca;
 USE biblioteca;
 
--- Verificamos si existe la tabal usuarios, si no la creamos
-DROP TABLE IF EXISTS usuarios;
-CREATE TABLE usuarios (
+-- Verificamos si existe la tabla usuarios, si no la creamos
+CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     telefono VARCHAR(20),
     direccion VARCHAR(150)
-);librosusuarios
+);
 
--- Verificamos si existe la tabal libros, si no la creamos
-DROP TABLE IF EXISTS libros;
-CREATE TABLE libros (
+-- Verificamos si existe la tabla libros, si no la creamos
+CREATE TABLE IF NOT EXISTS libros (
     id INT AUTO_INCREMENT PRIMARY KEY,
     isbn VARCHAR(20) UNIQUE NOT NULL,
     titulo VARCHAR(100) NOT NULL,
@@ -24,8 +22,7 @@ CREATE TABLE libros (
 );
 
 -- Verificamos si existe la tabla prestamos, si no la creamos
-DROP TABLE IF EXISTS prestamos;
-CREATE TABLE prestamos (
+CREATE TABLE IF NOT EXISTS prestamos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_id INT NOT NULL,
     libro_id INT NOT NULL,
