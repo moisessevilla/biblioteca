@@ -1,0 +1,67 @@
+@startuml
+
+' Definición de clases
+class Producto {
+  - id: INT
+  - titulo: VARCHAR
+  - autor: VARCHAR
+  - precio: DECIMAL
+  - stock: INT
+  --
+  + actualizarStock()
+  + verificarDisponibilidad()
+}
+
+class Carrito {
+  - id: INT
+  - usuario_id: INT
+  - total: DECIMAL
+  --
+  + agregarProducto()
+  + eliminarProducto()
+  + calcularTotal()
+}
+
+class DetalleCarrito {
+  - id: INT
+  - carrito_id: INT
+  - producto_id: INT
+  - cantidad: INT
+}
+
+class Pedido {
+  - id: INT
+  - usuario_id: INT
+  - fecha_pedido: DATETIME
+  - estado: VARCHAR
+  --
+  + confirmarPedido()
+  + actualizarEstado()
+}
+
+class DetallePedido {
+  - id: INT
+  - pedido_id: INT
+  - producto_id: INT
+  - cantidad: INT
+  - precio: DECIMAL
+}
+
+class Usuario {
+  - id: INT
+  - nombre: VARCHAR
+  - email: VARCHAR
+  - telefono: VARCHAR
+}
+
+' Relaciones entre clases
+Usuario "1" -- "1" Carrito : posee
+Usuario "1" -- "0..*" Pedido : realiza
+
+Carrito "1" -- "0..*" DetalleCarrito : contiene
+Producto "1" -- "0..*" DetalleCarrito : se agrega
+
+Pedido "1" -- "0..*" DetallePedido : incluye
+Producto "1" -- "0..*" DetallePedido : forma parte
+
+@enduml

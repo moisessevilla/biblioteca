@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor Usuario as U
+
+rectangle "Sistema de E-commerce" {
+  
+  usecase "Visualizar Catálogo" as UC1
+  usecase "Agregar Productos al Carrito" as UC2
+  usecase "Modificar el Carrito" as UC3
+  usecase "Eliminar Productos del Carrito" as UC4
+  usecase "Realizar Pedido" as UC5
+  usecase "Consultar Estado del Pedido" as UC6
+  usecase "Cancelar Pedido" as UC7
+  usecase "Validar Stock" as UC8
+  usecase "Actualizar Estado del Pedido" as UC9
+}
+
+' Relación directa entre el Usuario y los Casos de Uso
+U --> UC1
+U --> UC2
+U --> UC3
+U --> UC4
+U --> UC5
+U --> UC6
+U --> UC7
+
+' Relaciones entre Casos de Uso
+UC5 --> UC8 : <<include>>  ' Validar Stock antes de procesar el pedido
+UC5 --> UC9 : <<include>>  ' Actualizar el estado tras confirmar el pedido
+
+@enduml
