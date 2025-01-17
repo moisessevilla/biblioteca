@@ -5,18 +5,18 @@
 ****************************************************************
 **21GIIN Actividad3**
 
-**Título de la Actividad: **
+**Título de la Actividad:**
 Desarrollo de una Aplicación en Arquitectura de 3 Capas
 
-Objetivo:
-  Desarrollar una aplicación de gestión de biblioteca utilizando la arquitectura de 3 capas (presentación, lógica de negocio y acceso a datos) para comprender y aplicar los principios de diseño modular y separación de responsabilidades.
+**Objetivo:**
+Desarrollar una aplicación de gestión de biblioteca utilizando la arquitectura de 3 capas (presentación, lógica de negocio y acceso a datos) para comprender y aplicar los principios de diseño modular y separación de responsabilidades.
 
 **Descripción de la Actividad:**
   Los alumnos deberán crear una aplicación que permita gestionar los libros de una biblioteca. La aplicación debe incluir funcionalidades para agregar, editar, eliminar y buscar libros. Además, debe permitir la gestión de usuarios que pueden tomar prestados los libros.
 
 **Requisitos:**
 1.Capa de Presentación (UI)
-  a.Desarrollar controladores que deben permitir a los usuarios realizar las siguientes acciones:
+a.Desarrollar controladores que deben permitir a los usuarios realizar las siguientes acciones:
     i.Agregar un nuevo libro.
     ii.Editar la información de un libro existente.
     iii.Eliminar un libro.
@@ -52,25 +52,29 @@ Objetivo:
 
 **21 GIIN - ACTIVIDAD 4**
 
-**Título de la Actividad: **
+**Título de la Actividad:**
+
 Desarrollo de un Módulo de E-commerce y Diseño de Arquitectura en Paradigma Orientado a Objetos Descripción: En esta actividad, los estudiantes deberán añadir un nuevo módulo de e-commerce a un sistema existente utilizando el paradigma de programación orientado a objetos. Además, deberán crear diagramas de clases y de casos de uso, y proponer una solución de arquitectura de tres capas. 
+
 
 **Objetivos:**
   1. Desarrollar habilidades en la implementación de módulos utilizando el paradigma orientado a objetos.
   2. Diseñar y documentar diagramas de clases y de casos de uso.
   3. Proponer y justificar una solución de arquitectura de tres capas.
 
+
 **Instrucciones:**
   1. Análisis del Sistema Existente: Revise el sistema actual y documente su estructura y funcionalidades principales.
   2. Añadir Módulo de E-commerce: Desarrolle e integre un módulo de e-commerce al sistema existente. Asegúrese de que el nuevo módulo sea coherente con el propósito del sistema y mejore su funcionalidad.
   3. Diagramas de Clases y Casos de Uso: Cree los diagramas de clases y de casos de uso para el nuevo módulo de e-commerce. Asegúrese de que los diagramas sean claros y detallados.
   4. Solución de Arquitectura de Tres Capas: Proporcione una solución de arquitectura de tres capas (presentación, lógica de negocio y datos) para el sistema mejorado. Justifique su elección de arquitectura y explique cómo cada capa interactúa con las demás.
-  5. Informe Final: 
+  **5. Informe Final:**
     Elabore un informe detallado que incluya:
       a. Descripción del sistema original.
       b. Detalles del nuevo módulo de e-commerce añadido.
       c. Diagramas de clases y de casos de uso.
       d. Propuesta de arquitectura de tres capas.
+
 
 **Criterios de Evaluación:**
   1. Calidad y relevancia del módulo de e-commerce añadido.
